@@ -1,0 +1,36 @@
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+
+a:link, a:visited {
+  border-radius: 25px;
+  background: red;
+  color: white;
+  font-weight: bold;
+  padding: 20px; 
+  width: 150px;
+  height: 30px; 
+}
+
+a:hover, a:active {
+  background-color: #73AD21;
+}
+
+
+
+.myDiv{
+	text-align: center;
+	border-radius: 9px;
+  border: 2px solid black;
+  padding: 20px; 
+  width: 150px;
+  height: 30px; 
+ border-top-style: none;
+	
+}
